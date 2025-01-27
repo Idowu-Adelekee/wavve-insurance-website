@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --primary-blue: #0c1a3d;
+  --primary-blue-hover: #13295f;
+  --primary-green: #00ad3a;
+
+  --secondary-orange: #e25600;
+
+  --neutral-light: #effff3;
+  --neutral-white: #ffffff;
+
+  /* FONTS */
+  --body-s: 1.6rem;
+
+  /* BORDER */
+
+  --radius-m: 0.8rem;
+}

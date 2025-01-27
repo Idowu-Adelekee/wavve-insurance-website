@@ -1,0 +1,34 @@
+.body {
+  font-family: "Open-Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.heading-primary {
+  font-size: 5.6rem;
+  color: var(--primary-blue);
+}
+
+.heading-primary__main {
+  display: block;
+}
+
+.heading-primary__sub {
+  background-color: var(--neutral-white);
+  display: inline-block;
+}
+
+.heading-tertiary {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.heading-secondary {
+  font-size: 5.6rem;
+  font-weight: 600;
+}
+
+.heading-quaternary {
+  font-size: 3rem;
+  text-transform: uppercase;
+}

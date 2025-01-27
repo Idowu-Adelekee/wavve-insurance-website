@@ -1,0 +1,117 @@
+/*****************************
+FOOTER
+****************************/
+
+.footer {
+  background-color: var(--primary-blue);
+  padding: 3rem 0 20rem 0;
+}
+
+.footer-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+}
+
+.footer__brand-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: start;
+  color: var(--neutral-white);
+}
+
+.footer-description {
+  font-size: 1.8rem;
+  max-width: 30rem;
+  color: var(--neutral-light);
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.footer-btn:link,
+.footer-btn-visited {
+  display: inline-block;
+  padding: 1.2rem 1.6rem;
+  background-color: var(--primary-green);
+  text-decoration: none;
+  color: var(--primary-blue);
+  font-size: 1.8rem;
+}
+
+.footer-btn:hover,
+.footer-btn-visited {
+  background-color: #14a043;
+  color: var(--neutral-light);
+}
+
+.footer-menu {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-menu__heading {
+  font-size: 2rem;
+  color: #c2cbdc;
+}
+
+.contact-info {
+  font-size: 1.8rem;
+  max-width: 30rem;
+  color: var(--neutral-light);
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.footer-menu__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+
+  a:link,
+  a:visited {
+    display: inline-block;
+    color: var(--neutral-white);
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+  a:hover,
+  a:active {
+    color: var(--primary-green);
+  }
+}
+
+address {
+  font-size: 1.8rem;
+  max-width: 30rem;
+  color: var(--neutral-light);
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.footer-socials {
+  position: absolute;
+  color: var(--neutral-light);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #686778;
+  padding: 2.4rem 3rem 0 3rem;
+  bottom: -60%;
+  left: 0;
+}
+
+.copyright-text {
+  color: rgb(142, 143, 156);
+}
+
+.social__icons-box {
+  display: flex;
+  gap: 1.8rem;
+}

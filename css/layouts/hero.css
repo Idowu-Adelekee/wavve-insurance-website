@@ -1,0 +1,55 @@
+/*****************************
+HERO
+****************************/
+
+.hero {
+  background-image: url(../../img/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85rem;
+  display: flex;
+}
+
+.hero__content {
+  position: relative;
+  height: max-content;
+  height: 90%;
+  margin: 5rem 5rem 5rem 5rem;
+  max-width: 60rem;
+  border-radius: var(--radius-m);
+  padding: 4rem;
+  background-color: rgba(3, 231, 79, 0.694);
+  backdrop-filter: blur(24px);
+  /* padding-right: 3rem; */
+  overflow: hidden;
+}
+
+.hero__content--fill-design {
+  position: absolute;
+  top: -35%;
+  right: -45%;
+  z-index: -1;
+}
+
+.hero__content--outline-design {
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+}
+
+.hero__content-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hero__content-description {
+  font-size: 2.4rem;
+}
+
+.hero__content-ctabox {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

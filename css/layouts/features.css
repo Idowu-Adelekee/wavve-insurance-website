@@ -1,0 +1,30 @@
+/*****************************
+FEATURES
+****************************/
+.features {
+  display: none;
+  background-color: var(--neutral-white);
+  padding: 3rem 0 3rem 0;
+}
+
+.heading-tertiary {
+  opacity: 0.8;
+}
+
+.features__brands {
+  margin: 3rem auto;
+  display: flex;
+  gap: 2.4rem;
+  justify-content: space-between;
+}
+
+.features__brands img {
+  filter: grayscale(30%);
+  opacity: 70%;
+  transition: all 0.3s;
+
+  &:hover {
+    filter: grayscale(100%);
+    opacity: 100%;
+  }
+}

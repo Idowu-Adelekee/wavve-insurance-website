@@ -1,0 +1,27 @@
+/*****************************
+PRIMARY NAV
+****************************/
+
+.primary-nav__lists {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+  color: var(--primary-blue);
+}
+
+.primary-nav__link:link,
+.primary-nav__link:visited {
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+
+&:hover {
+  color: var(--primary-blue-hover);
+}
+
+.primary-nav__link:link.primary-btn,
+.primary-nav__link:visited.primary-btn {
+  color: white;
+}

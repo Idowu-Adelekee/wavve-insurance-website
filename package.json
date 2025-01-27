@@ -1,0 +1,15 @@
+{
+  "name": "wavve-website",
+  "version": "1.0.0",
+  "description": "A landing page for Wavve Insurance",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Idowu Adeleke",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
+  }
+}

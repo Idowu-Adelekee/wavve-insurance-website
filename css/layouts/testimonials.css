@@ -1,0 +1,135 @@
+/*****************************
+TESTIMONIALS
+****************************/
+
+.testimonials {
+  width: 100%;
+  height: min-content;
+  background-color: var(--primary-blue);
+  padding: 4rem 0 20rem 4rem;
+  color: var(--neutral-white);
+  transition: all 1s;
+}
+
+.testimonials__container {
+  width: 100%;
+}
+
+.testimonials__description {
+  font-size: 1.8rem;
+  letter-spacing: 0.3px;
+  margin-top: 2.4rem;
+  color: #d4dce5;
+  margin-bottom: 6rem;
+}
+
+.testimonials__sliders {
+  position: relative;
+  display: flex;
+  gap: 3rem;
+}
+
+.testimonials__slide {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 37rem;
+  flex-shrink: 0;
+  /* height: 30rem; */
+  background-color: #193781;
+  border-radius: var(--radius-m);
+  padding: 3rem;
+  color: #d4dce5;
+  border: 1px solid #8bb7e9;
+}
+
+.slide__author-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.slide__author-name {
+  font-size: 1.8rem;
+}
+
+.slide__author-occupation {
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: #d4dce5;
+}
+
+.slide__message {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.slide__message-text {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #d4dce5;
+  /* letter-spacing: 0.3px; */
+}
+
+.testimonials__slide-active {
+  height: 3.8rem;
+}
+
+.slider__btn-box {
+  position: absolute;
+  bottom: -10rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slider__btn {
+  display: inline-block;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #485f9c;
+  }
+}
+
+.slider__btn--left {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+/* .dots {
+  display: flex;
+  gap: 1.6rem;
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #60666b;
+    border-radius: 50%;
+  }
+
+  .dot.dot--active {
+    background-color: #ffffff;
+  }
+} */
+
+.dots {
+  width: 12px;
+  height: 12px;
+  background-color: #60666b;
+  border-radius: 50%;
+}
+
+.dots--active {
+  cursor: pointer;
+  background-color: #ffffff;
+}

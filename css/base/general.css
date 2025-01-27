@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--neutral-light);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 132rem;
+  margin: 6rem auto;
+  padding: 0 3rem;
+}

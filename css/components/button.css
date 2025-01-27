@@ -1,0 +1,46 @@
+/*****************************
+BUTTON
+****************************/
+.primary-btn:link,
+.primary-btn:visited {
+  background-color: var(--primary-blue);
+  padding: 1rem 1.4rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: var(--neutral-white);
+  border-radius: var(--radius-m);
+  transition: all 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-green);
+}
+
+.btn-text:link,
+.btn-text:visited {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+/* 
+.primary-btn:hover.cta__green-bg,
+.primary-btn:active.cta__green-bg {
+  background-color: var(--neutral-white);
+  color: var(--primary-blue);
+} */
+
+.btn__primary-nav {
+  background: none;
+  border: none;
+  display: none;
+  cursor: pointer;
+}
+
+.btn__primary-nav--icon {
+  top: 0;
+  right: 0;
+  width: 4.8rem;
+  height: 4.8rem;
+  color: var(--primary-blue);
+}

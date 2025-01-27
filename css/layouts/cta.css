@@ -1,0 +1,65 @@
+/*****************************
+CTA
+****************************/
+
+.cta {
+  position: relative;
+  background-color: #fff;
+  padding: 10rem 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-arrow-box {
+  position: absolute;
+  top: -10%;
+  left: -2%;
+  filter: opacity(0.6);
+  transform: scale(0.8);
+}
+
+.cta-contents {
+  background-image: url(../../img/cta-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100.4rem;
+  height: 38rem;
+  border-radius: var(--radius-m);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .heading-secondary {
+    margin-bottom: 2.4rem;
+    max-width: 60rem;
+    min-width: 50rem;
+  }
+}
+
+.cta-description {
+  font-size: 2rem;
+  color: var(--neutral-white);
+  max-width: 50rem;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #d4dce5;
+  margin-bottom: 2.4rem;
+}
+
+.primary-btn.cta__btn.green-hover:link,
+.primary-btn.cta__btn.green-hover:visited {
+  background-color: var(--neutral-white);
+  color: var(--primary-blue);
+  padding: 1.4rem 3.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.primary-btn.cta__btn.green-hover:hover,
+.primary-btn.cta__btn.green-hover:active {
+  background-color: var(--primary-green);
+}

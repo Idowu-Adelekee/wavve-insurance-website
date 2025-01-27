@@ -1,0 +1,15 @@
+.center-text {
+  text-align: center !important;
+}
+
+.right-text {
+  text-align: center !important;
+}
+
+.align-right {
+  justify-content: end !important;
+}
+
+.text-white {
+  color: var(--neutral-white) !important;
+}
