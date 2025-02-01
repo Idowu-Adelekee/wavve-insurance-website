@@ -10,6 +10,14 @@ btnMobile.addEventListener("click", function () {
   header.classList.toggle("nav-open");
 });
 
+const navlinks = document.querySelectorAll(".primary-nav__link");
+
+navlinks.forEach((link) => {
+  link.addEventListener("click", function () {
+    header.classList.remove("nav-open");
+  });
+});
+
 // Reveal Section
 const sectionAll = document.querySelectorAll(".section");
 
