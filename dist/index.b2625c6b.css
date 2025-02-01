@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-size: 62.5%;
   overflow-x: hidden;
 }
@@ -23,6 +24,15 @@ body {
   max-width: 132rem;
   margin: 6rem auto;
   padding: 0 3rem;
+}
+
+.section {
+  transition: all .6s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 .center-text, .right-text {
@@ -764,6 +774,16 @@ address {
   color: var(--primary-blue);
   font-size: 2rem;
   text-decoration: none;
+  transition: all .3s;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.primary-btn:hover.cta__green-bg, .primary-btn:active.cta__green-bg {
+  background-color: var(--neutral-white);
+  color: var(--primary-blue);
 }
 
 .btn__primary-nav {

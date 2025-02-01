@@ -1,5 +1,39 @@
 "use strict";
 
+// SELCECTING ELEMENTS
+
+const btnMobile = document.querySelector(".btn__primary-nav");
+const header = document.querySelector(".header");
+
+// MOBILE NAVIGATION
+btnMobile.addEventListener("click", function () {
+  header.classList.toggle("nav-open");
+});
+
+// Reveal Section
+const sectionAll = document.querySelectorAll(".section");
+
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+  console.log(entry);
+
+  if (!entry.isIntersecting) return;
+  entry.target.classList.remove("section--hidden");
+  observer.unobserve(entry.target);
+};
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15,
+});
+
+sectionAll.forEach(function (section) {
+  sectionObserver.observe(section);
+  section.classList.add("section--hidden");
+});
+
+console.log(sectionAll);
+
 ///////////////////////////////////////
 // Slider
 // const slider = function () {
@@ -85,12 +119,3 @@
 //   });
 // };
 // slider();
-
-const btnMobile = document.querySelector(".btn__primary-nav");
-const header = document.querySelector(".header");
-
-btnMobile.addEventListener("click", function () {
-  header.classList.toggle("nav-open");
-});
-
-// When the user click on the nav-mobile icon the mobile menu should open otherwise it should remain close.
