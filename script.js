@@ -18,6 +18,19 @@ navlinks.forEach((link) => {
   });
 });
 
+// Sticky Navigation
+
+const aboutSection = document.querySelector(".about");
+const initialCoords = about.getBoundingClientRect();
+console.log(initialCoords);
+
+window.addEventListener("scroll", function (e) {
+  console.log(this.scrollY);
+
+  if (this.scrollY > initialCoords.top) header.classList.add("sticky");
+  else header.classList.remove("sticky");
+});
+
 // Reveal Section
 const sectionAll = document.querySelectorAll(".section");
 

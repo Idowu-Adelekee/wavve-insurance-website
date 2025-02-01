@@ -99,9 +99,19 @@ body {
   background-color: #fff;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: max-content;
   padding: 3rem 2rem;
   display: flex;
   position: relative;
+}
+
+.header.sticky {
+  backdrop-filter: blur(15px);
+  background-color: #fff9;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 .5rem 1rem #0000001a;
 }
 
 .hero {
