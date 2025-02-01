@@ -21,6 +21,7 @@ body {
   font-weight: 500;
   color: var(--primary-blue);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {

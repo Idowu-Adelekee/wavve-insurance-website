@@ -14,6 +14,7 @@ html {
 body {
   background-color: var(--neutral-light);
   color: var(--primary-blue);
+  scroll-behavior: smooth;
   font-family: Open Sans, sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
