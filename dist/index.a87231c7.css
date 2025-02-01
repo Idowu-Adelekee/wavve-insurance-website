@@ -140,6 +140,7 @@
 
   .nav-open {
     & .primary-nav {
+      backdrop-filter: blur(40px);
       opacity: 1;
       visibility: visible;
       pointer-events: all;

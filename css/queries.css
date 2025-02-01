@@ -153,7 +153,7 @@ Below 900px (Tablet portrays)
   .nav-open {
     .primary-nav {
       transform: translateX(0);
-
+      backdrop-filter: blur(40px);
       opacity: 1;
       visibility: visible;
       pointer-events: all;
